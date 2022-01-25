@@ -16,7 +16,7 @@
 // Either "production", "dev", "demo" or "prerelease"
 // When not "production", authentication will be disabled and
 // demo data will be populated during database migrations
-Setting('MODE', 'production');
+Setting('MODE', 'dev');
 
 // Either "en" or "de" or the directory name of
 // one of the other available localization folders in the "/localization" directory
